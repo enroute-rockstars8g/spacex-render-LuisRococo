@@ -104,6 +104,7 @@ body {
 }
 
 .mission__cont-img {
+
 }
 
 .mission__cont-img img {
@@ -116,4 +117,19 @@ body {
 
 .mission__text {
   margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+  .mission__cont{
+    flex-direction: column;
+  }
+
+  .mission__cont-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mission__cont-info {
+    text-align: center;
+  }
 }
